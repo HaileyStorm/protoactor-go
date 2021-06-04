@@ -1,7 +1,7 @@
 package mailbox
 
 import (
-	"github.com/HaileyStrom/protoactor-go/internals/queue/goring"
+	"github.com/HaileyStorm/protoactor-go/internals/queue/goring"
 	"github.com/HaileyStorm/protoactor-go/internals/queue/mpsc"
 )
 

@@ -4,7 +4,7 @@ module github.com/AsynkronIT/protoactor-go
 //replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 replace github.com/coreos/etcd => go.etcd.io/etcd/client/v3 v3.5.0-beta.4
 replace github.com/AsynkronIT/protoactor-go => github.com/HaileyStorm/protoactor-go v0.1.2-hailey
-replace github.com/AsynkronIT/protoactor-go/internal => github.com/HaileyStorm/protoactor-go/internal v0.1.2-hailey
+//replace github.com/AsynkronIT/protoactor-go/internal => github.com/HaileyStorm/protoactor-go/internal v0.1.2-hailey
 
 require (
 	github.com/Workiva/go-datastructures v1.0.53

@@ -1,7 +1,8 @@
 module github.com/AsynkronIT/protoactor-go
 
 // See https://github.com/etcd-io/etcd/issues/12124
-replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
+//replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
+replace github.com/coreos/etcd => go.etcd.io/etcd/client/v3 v3.5.0-beta.4
 
 require (
 	github.com/Workiva/go-datastructures v1.0.53
@@ -11,7 +12,7 @@ require (
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
 	github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1 // indirect
 	github.com/coreos/bbolt v1.3.3 // indirect
-	github.com/coreos/etcd v3.3.25+incompatible
+	go.etcd.io/etcd/client/v3 v3.5.0-beta.4
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect

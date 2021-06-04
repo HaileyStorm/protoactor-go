@@ -1,8 +1,8 @@
 package mailbox
 
 import (
-	"github.com/AsynkronIT/protoactor-go/internals/queue/goring"
-	"github.com/AsynkronIT/protoactor-go/internals/queue/mpsc"
+	"github.com/HaileyStorm/protoactor-go/internals/queue/goring"
+	"github.com/HaileyStorm/protoactor-go/internals/queue/mpsc"
 )
 
 type unboundedMailboxQueue struct {

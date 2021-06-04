@@ -17,7 +17,8 @@ require (
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
-	github.com/couchbase/gocb/v2 v2.2.3
+	github.com/couchbase/gocb v1.6.7
+	//github.com/couchbase/gocb/v2 v2.2.3
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f
 	github.com/dustin/go-humanize v1.0.0 // indirect

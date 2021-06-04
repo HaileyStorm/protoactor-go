@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/AsynkronIT/protoactor-go/internal/queue/goring"
-	"github.com/AsynkronIT/protoactor-go/internal/queue/mpsc"
+	"github.com/AsynkronIT/protoactor-go/internals/queue/goring"
+	"github.com/AsynkronIT/protoactor-go/internals/queue/mpsc"
 	"github.com/AsynkronIT/protoactor-go/log"
 	"github.com/AsynkronIT/protoactor-go/mailbox"
 )
